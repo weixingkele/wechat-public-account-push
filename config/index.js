@@ -107,8 +107,8 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "史小猪", "year": "1999", "date": "03-06"},
-    {"type": "节日", "name": "", "year": "", "date": ""},
-    {"type": "生日", "name": "新年", "year": "2023", "date": "01-01"},
+    {"type": "节日", "name": "新年", "year": "2023", "date": "01-01"},
+    {"type": "生日", "name": "新年", "year": "2023", "date": "12-01"},
     {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "08-01"},
   ],
 
@@ -117,7 +117,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 3,
 
   /** 日期相关 */
 
@@ -127,7 +127,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-01"},
+    {"keyword": "love_day", date: "2022-08-01"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
