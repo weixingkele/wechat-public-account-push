@@ -31,15 +31,15 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "茜茜",
+      name: "史小猪",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "olI_15sgs7r0nuvo2MnZQMWrqfPE",
+      id: "olI_15i6e-g7glS3DDc9e8qhhVWI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "I4D4rrXmq9W60DktRYWaWe7BMwu9TG2k6It4fxNzYgQ",
+      useTemplateId: "5rq9yueLEvxZv1YWRDTaCurn2pK0qFT6xdneDVtB8ZQ",
       // 所在省份
       province: "新疆",
       // 所在城市
-      city: "喀什",
+      city: "乌苏",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://Weibo.com"
     }, 
@@ -106,10 +106,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "茜茜宝贝", "year": "1996", "date": "06-07"},
-    {"type": "节日", "name": "中秋节", "year": "2023", "date": "09-10"},
+    {"type": "生日", "name": "史小猪", "year": "1999", "date": "03-06"},
+    {"type": "节日", "name": "", "year": "", "date": ""},
     {"type": "生日", "name": "新年", "year": "2023", "date": "01-01"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "09-01"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "08-01"},
   ],
 
   /**
